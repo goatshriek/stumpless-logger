@@ -1,0 +1,67 @@
+name: Mac
+
+on:
+  push:
+  pull_request:
+    branches: [ "latest" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  default_features:
+    name: Default Features
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        toolchain:
+          - stable
+          - beta
+          - nightly
+    steps:
+      - uses: actions/checkout@v3
+      - name: Checkout submodules
+        run: git submodule update --init
+      - name: Update Rust
+        run: |
+          rustup update ${{ matrix.toolchain }}
+          rustup default ${{ matrix.toolchain }}
+          rustup component add rustfmt
+      - name: Build
+        run: cargo build --verbose
+      - name: Run Tests
+        run: cargo test --verbose
+      - name: Test Formatting
+        run: cargo fmt --all -- --check
+      - name: Build Docs
+        run: cargo doc
+      - name: Build Package
+        run: cargo package --verbose
+  mac_features:
+    name: All Mac Features
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        toolchain:
+          - stable
+          - beta
+          - nightly
+    steps:
+      - uses: actions/checkout@v3
+      - name: Checkout submodules
+        run: git submodule update --init
+      - name: Update Rust
+        run: |
+          rustup update ${{ matrix.toolchain }}
+          rustup default ${{ matrix.toolchain }}
+          rustup component add rustfmt
+      - name: Build
+        run: cargo build --verbose --features network,socket
+      - name: Run Tests
+        run: cargo test --verbose --features network,socket
+      - name: Test Formatting
+        run: cargo fmt --all -- --check
+      - name: Build Docs
+        run: cargo doc --features network,socket
+      - name: Build Package
+        run: cargo package --verbose --features network,socket

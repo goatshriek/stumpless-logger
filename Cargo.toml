@@ -1,0 +1,26 @@
+[package]
+name = "stumpless"
+description = "Sends log information to a variety of destinations, local and remote."
+version = "0.1.0"
+authors = ["Joel Anderson <joelanderson333@gmail.com>"]
+edition = "2021"
+repository = "https://github.com/goasthriek/stumpless-logger/"
+license = "Apache-2.0"
+keywords = ["cli", "library", "log", "logging", "utility"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.0.32", features = ["cargo"] }
+itertools = "0.10.5"
+regex = "1.7.0"
+stumpless-sys = "0.2.0"
+
+[build-dependencies]
+embed-resource = "1.8.0"
+stumpless-sys = "0.2.0"
+
+[features]
+journald = ["stumpless-sys/journald"]
+network = ["stumpless-sys/network"]
+socket = ["stumpless-sys/socket"]
+wel = ["stumpless-sys/wel"]
