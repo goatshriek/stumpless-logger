@@ -1,6 +1,8 @@
+[![crates.io](https://img.shields.io/crates/v/stumpless)](https://crates.io/crates/stumpless)
 [![Linux Builds](https://github.com/goatshriek/stumpless-logger/actions/workflows/linux.yml/badge.svg)](https://github.com/goatshriek/stumpless-logger/actions/workflows/linux.yml)
 [![Windows Builds](https://github.com/goatshriek/stumpless-logger/actions/workflows/windows.yml/badge.svg)](https://github.com/goatshriek/stumpless-logger/actions/workflows/windows.yml)
 [![Mac Builds](https://github.com/goatshriek/stumpless-logger/actions/workflows/mac.yml/badge.svg)](https://github.com/goatshriek/stumpless-logger/actions/workflows/mac.yml)
+[![Gitter](https://badges.gitter.im/stumpless/community.svg)](https://gitter.im/stumpless/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.1-ff69b4.svg)](https://github.com/goatshriek/stumpless-logger/blob/latest/docs/CODE_OF_CONDUCT.md)
 
