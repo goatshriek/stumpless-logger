@@ -91,9 +91,6 @@ need attention and are relatively simple to fix, respectively. Issues marked as
 completion, as long as you check in occasionally if it is taking longer than
 you initially thought.
 
-The [development notes](development.md) have a getting started section for
-newcomers to the project, and are worth a read.
-
 
 #### No, I mean I **really** don't know where to start
 If you are brand new to the community at large and are looking for a little more

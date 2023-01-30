@@ -1,7 +1,7 @@
 [package]
 name = "stumpless"
 description = "Sends log information to a variety of destinations, local and remote."
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Joel Anderson <joelanderson333@gmail.com>"]
 edition = "2021"
 repository = "https://github.com/goasthriek/stumpless-logger/"

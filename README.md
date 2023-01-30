@@ -1,3 +1,5 @@
+**An enhanced command line logging utility.**
+
 [![crates.io](https://img.shields.io/crates/v/stumpless)](https://crates.io/crates/stumpless)
 [![Linux Builds](https://github.com/goatshriek/stumpless-logger/actions/workflows/linux.yml/badge.svg)](https://github.com/goatshriek/stumpless-logger/actions/workflows/linux.yml)
 [![Windows Builds](https://github.com/goatshriek/stumpless-logger/actions/workflows/windows.yml/badge.svg)](https://github.com/goatshriek/stumpless-logger/actions/workflows/windows.yml)
@@ -6,8 +8,9 @@
 [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.1-ff69b4.svg)](https://github.com/goatshriek/stumpless-logger/blob/latest/docs/CODE_OF_CONDUCT.md)
 
-
-**An enhanced command line logging utility.**
+[Key Features](#key-features) |
+[Basic Usage](#send-your-logs-anywhere) |
+[Contributing](#contributing)
 
 
 ## Key Features
@@ -221,3 +224,44 @@ familiar with or using other loggers.
    different combinations in a single invocation.
  * The following flags/modes of operation are not supported:
    * `--rfc3164` for the RFC 3164 BSD syslog format of messages
+
+
+## Contributing
+Notice a problem or have a feature request? Just create an issue using one of
+the templates, and we will respond as quickly as we can. You can also look at
+the project's [Contribution Guidelines](docs/CONTRIBUTING.md) for more details
+on the different ways you can give back to the open source community!
+
+If you want to actually write some code or make an update yourself, there are a
+few options based on your level of experience and familiarity with making
+contributions.
+
+The first option is to browse the list of issues that are marked with the label
+[good first issue](https://github.com/goatshriek/stumpless-logger/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+These issues are selected to be a small but meaningful amount of work, and
+include details on the general approach that you can take to complete them. They
+are a great place to start if you are just looking to test the waters of this
+project or open source contribution in general.
+
+More experienced developers may prefer to look at the full list of issues on the
+project, as well as the
+[roadmap](https://github.com/goatshriek/stumpless-logger/blob/latest/docs/roadmap.md).
+If an item catches your interest, drop a comment in the existing issue or open
+a new one if it doesn't exist yet and state your intent to work on it so that
+others will have a way to know it is underway.
+
+Or perhaps you are just looking for a way to say thanks! If that's the case or
+if there is something that you would prefer to drop me a private message about,
+please feel free to do so on Twitter with
+[#StumplessLib](https://twitter.com/search?q=%23StumplessLib), or in an
+[email](mailto:joelanderson333@gmail.com)! I'd love to see you share the project
+with others or just hear your thoughts on it.
+
+
+## Further Documentation
+If you're curious about how something in stumpless works that isn't explained
+here, you can check the appropriate section of the documentation, stored in the
+docs folder of the repository. Folders in the repository contain their own
+README files that detail what they contain and any other relevant information.
+If you still can't find an answer, submit an issue or head over to
+[gitter](https://gitter.im/stumpless/community) and ask for some help.

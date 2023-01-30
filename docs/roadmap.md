@@ -5,10 +5,16 @@ or want to make a suggestion, please submit an issue on the project's
 
 
 ## 0.2.0
- * [CHANGE] **Avoid Thread Spawn for single target**
+ * [CHANGE] **Avoid Thread Spawn for single target**:
    When logs are only going to be sent to one target, the overhead of spawning
    a new thread for the logging adds needless delay. This should be detected and
    the thread spawn avoided in this situation.
+ * [CHANGE] **More forgiving param name/value parsing**:
+   Currently structured data params provided via `--sd-param` must include
+   double-quotes, the same was as `logger` does. However, this can be painful to
+   do in some environments where this requires different escape sequences based
+   on the shell in use. This will be changed to allow the double quotes to be
+   left out in scenarios where this is unnecessary.
 
 
 ## What you'll find here and what you wont
