@@ -26,6 +26,6 @@ fn main() {
         let mut compile_file = PathBuf::new();
         compile_file.push(&out_dir);
         compile_file.push("default_events.rc");
-        embed_resource::compile(&compile_file);
+        embed_resource::compile(&compile_file, embed_resource::NONE);
     }
 }
