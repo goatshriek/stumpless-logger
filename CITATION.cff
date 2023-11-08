@@ -3,8 +3,8 @@ title: Stumpless CLI and Rust Library
 type: software
 license: Apache-2.0
 repository-code: "https://github.com/goatshriek/stumpless-logger"
-version: 0.2.0
-date-released: 2023-01-28
+version: 0.1.1
+date-released: 2023-11-10
 keywords:
   - cli
   - journald
