@@ -8,7 +8,8 @@ and this project adheres to
 
 ## [0.1.1] - 2023-11-10
 ### Security
- - Addressed Github Security Advisory GHSA-c827-hfw6-qwvm.
+ - Addressed Github Security Advisory
+   [GHSA-c827-hfw6-qwvm](https://github.com/advisories/GHSA-c827-hfw6-qwvm).
 
 
 ## [0.1.0] - 2023-01-28
