@@ -254,7 +254,7 @@ Or perhaps you are just looking for a way to say thanks! If that's the case or
 if there is something that you would prefer to drop me a private message about,
 please feel free to do so on Twitter with
 [#StumplessLib](https://twitter.com/search?q=%23StumplessLib), or in an
-[email](mailto:joelanderson333@gmail.com)! I'd love to see you share the project
+[email](mailto:joel@goatshriek.com)! I'd love to see you share the project
 with others or just hear your thoughts on it.
 
 

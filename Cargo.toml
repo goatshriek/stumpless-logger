@@ -2,7 +2,7 @@
 name = "stumpless"
 description = "Sends log information to a variety of destinations, local and remote."
 version = "0.1.1"
-authors = ["Joel Anderson <joelanderson333@gmail.com>"]
+authors = ["Joel Anderson <joel@goatshriek.com>"]
 edition = "2021"
 repository = "https://github.com/goatshriek/stumpless-logger/"
 license = "Apache-2.0"
