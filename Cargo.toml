@@ -1,22 +1,22 @@
 [package]
 name = "stumpless"
 description = "Sends log information to a variety of destinations, local and remote."
-version = "0.2.0"
+version = "0.1.1"
 authors = ["Joel Anderson <joelanderson333@gmail.com>"]
 edition = "2021"
-repository = "https://github.com/goasthriek/stumpless-logger/"
+repository = "https://github.com/goatshriek/stumpless-logger/"
 license = "Apache-2.0"
 keywords = ["cli", "library", "log", "logging", "utility"]
 categories = ["command-line-utilities"]
 
 [dependencies]
-clap = { version = "4.0.32", features = ["cargo"] }
-itertools = "0.10.5"
-regex = "1.7.0"
+clap = { version = "4.4.7", features = ["cargo"] }
+itertools = "0.11.0"
+regex = "1.10.2"
 stumpless-sys = "0.2.0"
 
 [build-dependencies]
-embed-resource = "1.8.0"
+embed-resource = "2.4.0"
 stumpless-sys = "0.2.0"
 
 [features]
