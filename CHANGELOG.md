@@ -6,6 +6,12 @@ and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.1.2] - 2024-01-27
+### Security
+ - Addressed Github Security Advisory
+   [GHSA-r7qv-8r2h-pg27](https://github.com/advisories/GHSA-r7qv-8r2h-pg27)
+
+
 ## [0.1.1] - 2023-11-10
 ### Security
  - Addressed Github Security Advisory
